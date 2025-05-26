@@ -1,0 +1,33 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project 2bit_comp2
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1_tb.vhdp was successful.
+vsim -gui work.aac2m1p1_tb
+# vsim -gui work.aac2m1p1_tb 
+# Start time: 19:19:49 on Oct 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# Loading work.comparator2(behavioral)
+add wave -position insertpoint  \
+sim:/aac2m1p1_tb/a_tb \
+sim:/aac2m1p1_tb/b_tb \
+sim:/aac2m1p1_tb/c_tb \
+sim:/aac2m1p1_tb/ValidCheck \
+sim:/aac2m1p1_tb/ROM \
+sim:/aac2m1p1_tb/delay \
+sim:/aac2m1p1_tb/Points
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run -all
+# ** Note: This simulation is complete
+#    Time: 180 ns  Iteration: 0  Instance: /aac2m1p1_tb
+# End time: 19:30:47 on Oct 14,2024, Elapsed time: 0:10:58
+# Errors: 0, Warnings: 0
